@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<style type="text/css">
+body{
+ background-color:black;
+}
+.main{
+ position:relative;
+ width:80%;
+ border-radius:20px;
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
+ 
+}
+#thisme{
+ box-shadow:2px 5px 25px white;
+}
+.avatarbox{
+width:300px;
+height:auto;
+position:relative;
+display:block;
+margin-left:auto;
+margin-right:auto;
+z-index:1;
+animation-name:nerd;
+animation-direction:alternate;
+animation-duration:5s;
+animation-iteration-count:infinite;
+border-radius:50% 50%;
+ box-shadow:2px 5px 25px white;
+}
+#avatar{
+width:100px;
+
+}
+@keyframes nerd{
+ 0%{
+ background-image:url("/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/avatar1.jpg");
+ background-size:100% 100%;
+ background-repeat:no-repeat;
+ width:150px;
+ height:125px;
+ 
+ }
+ 50%{
+ background-image:url("/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/avatar2.jpg");
+ background-size:100% 100%;
+ background-repeat:no-repeat;
+ width:150px;
+ height:125px;
+ 
+ }
+ 100%{
+ background-image:url("/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/avatar3.jpg");
+ background-size:100% 100%;
+ background-repeat:no-repeat;
+ width:150px;
+ height:125px;
+ }
+}
+</style>
+</head>
+<body>
+   <div class="avatarbox" >
+  <!-- <img id="avatar" src="/storage/emulated/0/Android/media/com.whatsapp/WhatsApp/Media/WhatsApp Images/avatar1.jpg">-->
+   </div>
+   
+  <img class="main" id="thisme" src="/storage/emulated/0/Pictures/Screenshots/kevo.jpg">
+
+</body>
+</html>
